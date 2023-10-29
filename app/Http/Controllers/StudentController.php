@@ -38,4 +38,14 @@ class StudentController extends Controller
             "message" => "Add resource successful",
         ], 201);
     }
+
+    public function update(Request $request, $id)
+    {
+        // task 5 here
+    }
+
+    public function destory($id)
+    {
+        // task 5 here
+    }
 }
