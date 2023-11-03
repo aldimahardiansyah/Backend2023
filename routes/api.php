@@ -37,3 +37,9 @@ Route::get("students", [StudentController::class, "index"]);
 
 // Route untuk menambah student
 Route::post("students", [StudentController::class, "store"]);
+
+// Route untuk update student
+Route::put("students/{id}", [StudentController::class, "update"]);
+
+// Route untuk mendapatkan detail student
+Route::get("students/{id}", [StudentController::class, "show"]);
