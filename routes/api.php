@@ -34,3 +34,6 @@ Route::delete('animals/{id}', [AnimalController::class, "destroy"]);
 
 // Route untuk menampilkan semua siswa
 Route::get("students", [StudentController::class, "index"]);
+
+// Route untuk menambah student
+Route::post("students", [StudentController::class, "store"]);
